@@ -1,0 +1,24 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+
+# Environment variables and credentials
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python dependency files
+*.egg-info/
+*.egg
+*.pyo
