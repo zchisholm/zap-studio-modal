@@ -96,7 +96,7 @@ def keep_warm():
     health_response = requests.get(health_url)
     print(f"Health check at: {health_response.json()['timestamp']}")
 
-    # Then make a test request to generate endpoint with API key
+    # Then make a test request to generate endpoint with API key.
     headers = {"X-API-Key": os.environ["ZAP_API_KEY"]}
 
     generate_response = requests.get(generate_url, headers=headers)
